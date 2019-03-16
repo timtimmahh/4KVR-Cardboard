@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textColorPrimary">@android:color/primary_text_light</item>
+        <item name="android:textColorSecondary">@android:color/secondary_text_light</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay">
+    </style>
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.PopupOverlay">
+    </style>
+    <style name="LightCheckBox">
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorControlNormal">@color/nonActive</item>
+    </style>
+    <style name="LightRadioButton">
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorControlNormal">@color/nonActive</item>
+    </style>
+</resources>

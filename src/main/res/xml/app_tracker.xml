@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <integer name="ga_sessionTimeout">300
+    </integer>
+    <bool name="ga_autoActivityTracking">true
+    </bool>
+    <bool name="ga_reportUncaughtExceptions">true
+    </bool>
+    <screenName name="com.xojot.vrplayer.MainActivity">MainActivity
+    </screenName>
+    <string name="ga_trackingId">UA-84650216-3
+    </string>
+</resources>

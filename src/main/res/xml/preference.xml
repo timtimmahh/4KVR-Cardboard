@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <SwitchPreference android:title="@string/pref_stop_auto_pan" android:key="@string/pref_stop_auto_pan_key" android:summaryOn="@string/on" android:summaryOff="@string/off"/>
+    <SwitchPreference android:title="@string/pref_ask_format_open_media" android:key="@string/pref_ask_format_open_media_key" android:summaryOn="@string/on" android:summaryOff="@string/off"/>
+    <Preference android:title="@string/pref_web_link" android:summary="@string/web_page">
+        <intent android:action="android.intent.action.VIEW" android:data="http://www.poppolab.com"/>
+    </Preference>
+    <Preference android:title="@string/pref_app_version" android:key="@string/pref_app_version_key"/>
+</PreferenceScreen>

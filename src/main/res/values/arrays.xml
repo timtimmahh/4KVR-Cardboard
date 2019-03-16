@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="projection_array">
+        <item>@string/projection_panorama</item>
+        <item>@string/projection_standard</item>
+        <item>@string/projection_fisheye_1</item>
+        <item>@string/projection_fisheye_2</item>
+        <item>@string/projection_fisheye_3</item>
+        <item>@string/projection_fisheye_4</item>
+    </array>
+    <array name="stereo_array">
+        <item>@string/stereo_mono</item>
+        <item>@string/stereo_sbs</item>
+        <item>@string/stereo_sbs_comp</item>
+        <item>@string/stereo_ou</item>
+        <item>@string/stereo_ou_comp</item>
+    </array>
+</resources>
